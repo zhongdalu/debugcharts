@@ -1,7 +1,7 @@
 // Simple live charts for memory consumption and GC pauses.
 //
 // To use debugcharts, link this package into your program:
-//	import _ "github.com/mkevac/debugcharts"
+//	import _ "github.com/zhongdalu/debugcharts"
 //
 // If your application is not already running an http server, you
 // need to start one.  Add "net/http" and "log" to your imports and
@@ -33,7 +33,7 @@ import (
 	"github.com/shirou/gopsutil/cpu"
 	"github.com/shirou/gopsutil/process"
 
-	"github.com/mkevac/debugcharts/bindata"
+	"github.com/zhongdalu/debugcharts/bindata"
 )
 
 type update struct {

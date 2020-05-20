@@ -1,4 +1,4 @@
-module github.com/mkevac/debugcharts
+module github.com/zhongdalu/debugcharts
 
 go 1.13
 
